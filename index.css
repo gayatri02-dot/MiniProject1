@@ -1,3 +1,14 @@
 body{
-    background-color: rgb(216, 247, 255);
+    background-image: url("maple leaf drop.gif");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+#btn1{
+    height: 60px;
+    width: 120px;
+    margin-top: 300px;
+    margin-left: 46%;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
 }
