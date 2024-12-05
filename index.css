@@ -1,4 +1,5 @@
-body{
+#indexface{
+    height: 300px;
     background-image: url("maple leaf drop.gif");
     background-repeat: no-repeat;
     background-size:100%;
@@ -11,4 +12,23 @@ body{
     background-color: transparent;
     border-color: white;
     border-radius: 10px;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+#mainheading{
+    float:right;
+    font-family: 'Lucida Handwriting';
+    margin-right: 150px;
+}
+#hh1{
+    text-decoration: brown;
+    color: rgb(255, 239, 219);
+    float: right;
+}
+#hh2{
+    color: rgba(252, 252, 252, 0.884);
+    float: right;
 }
