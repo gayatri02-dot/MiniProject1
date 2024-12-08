@@ -18,6 +18,7 @@
     text-decoration: none;
     color: black;
 }
+
 #mainheading{
     float:right;
     font-family: 'Lucida Handwriting';
@@ -29,6 +30,124 @@
     float: right;
 }
 #hh2{
+    margin-top: 0.1px;
     color: rgba(252, 252, 252, 0.884);
     float: right;
+}
+.img img{
+    margin-left: 100px;
+    
+    width: 250px;
+}
+.img img:hover{
+    border-radius: 20px;
+}
+#divtaj{
+    display: inline-flex;
+    margin-top: 100px;
+}
+
+#imgtaj{
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    
+}
+#tajdis{
+    float: right;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#tajdis h3{
+    font-family: 'Allura', cursive;
+    font-size: 70px;
+    /* font-family:  'Pacifico', cursive; */
+}
+#tajdis p{
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+}
+#divgoa{
+    display: inline-flex;
+    margin-top: 100px;
+}
+#goadis{
+    margin-left: 100px;
+}
+.img #imggoa{
+    margin-right: 100px;
+}
+#goadis h3{
+    font-family: 'Allura', cursive;
+    font-size: 70px;
+}
+#goadis p{
+    font-family: 'Quicksand', sans-serif;
+}
+#service{
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+.serv{
+    height: 200px;
+    width: 160px;
+    margin-left: 30px;
+    display: inline-flex;
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.884);
+    text-align: center;
+}
+.serv h5{
+    
+}
+#footer{
+    margin-top: 200px;
+    background-color: rgb(236, 175, 125);
+    height: 200px;
+
+}
+.head h1{
+    margin-top: 70px;
+    margin-top: 100px;
+    font-family: 'Parisienne', cursive;
+}
+#footer p{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+@media (max-width: 600px){
+    #mainheading{
+        margin-right: 20px;
+    }
+    #hh1{
+        font-size: xx-large;
+    }
+    #hh2{
+        font-size: medium;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1200px){
+        #mainheading{
+            margin-right: 10px;
+        }
+        #hh1{
+            font-size: 40px;
+        }
+        #hh2{
+            font-size: 25px;
+        }
+}
+
+
+@media (min-width: 1200px){
+    #mainheading{
+        margin-right: 20px;
+    }
 }
